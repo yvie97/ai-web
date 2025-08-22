@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Objects;
 
 @RequiredArgsConstructor // Lombok注解，自动生成包含所有final字段的构造函数，用于Spring容器创建对象和依赖注入
-@RestController // 组合了@Controller和@ResponseBody
+@RestController // 组合了@Controller和@ResponseBody注解
 @RequestMapping("/ai")
 public class ChatController {
     // 依赖注入
